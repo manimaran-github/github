@@ -1,0 +1,14 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [ATHOME].[AH_DELIVERY_TO_DC](
+	[MODEREFERENCE] [nvarchar](50) NULL,
+	[CONTAINER] [nvarchar](100) NULL,
+	[CONSIGNEE_CITY] [nvarchar](255) NULL,
+	[DELIVERY_TO_DC] [date] NULL,
+	[CONTAINER_UNLOADED] [date] NULL,
+	[EstimatedSailDate] [date] NULL,
+	[ActualArrivalDate] [date] NULL
+) ON [PRIMARY]
+GO
