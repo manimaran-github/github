@@ -8,7 +8,6 @@ CREATE TABLE [ATHOME].[AH_DELIVERY_TO_DC](
 	[CONSIGNEE_CITY] [nvarchar](255) NULL,
 	[DELIVERY_TO_DC] [date] NULL,
 	[CONTAINER_UNLOADED] [date] NULL,
-	[EstimatedSailDate] [date] NULL,
-	[ActualArrivalDate] [date] NULL
+	[EstimatedSailDate] [date] NULL
 ) ON [PRIMARY]
 GO
